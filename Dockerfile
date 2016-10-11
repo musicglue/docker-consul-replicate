@@ -6,5 +6,4 @@ RUN wget -O /tmp/consul.zip https://releases.hashicorp.com/consul-replicate/0.2.
  && mv consul-replicate /bin/consul-replicate \
  && rm /tmp/consul.zip
 
-ENTRYPOINT ["/bin/consul-replicate"]
-CMD ["-h"]
+CMD ["/bin/consul-replicate"]
